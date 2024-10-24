@@ -59,7 +59,7 @@ public class Main extends Application {
 
         VBox layout = new VBox(20);
         layout.setPadding(new Insets(40));
-        layout.getChildren().addAll(new Label("Autor: [...]"), separator, accordion);
+        layout.getChildren().addAll(new Label("Autor: [Lucas]"), separator, accordion);
 
         Scene scene = new Scene(layout, 800, 800);
         window.setTitle("Projeto Integração");
